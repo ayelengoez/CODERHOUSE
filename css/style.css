@@ -227,13 +227,72 @@ h2 {
 
 /** CONTACTO **/
 
-iframe {
-    margin: 15px;
+#contacto {
+    width: 90%;
+    margin: 5%;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-width: 2px;
+    border-style: solid;
+    border-color:#737272;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px #737272;
+    background-color:#c8814f91;
 }
 
-form {
-    display: inline-block;
-    width: 400px;
+#info {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#info h2 {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+#mapa {
+    margin: auto;
+}
+
+#formulario {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+legend {
+    font-size: 1rem;
+    text-align: center;
+}
+
+label {
+    margin-top: 10%;
+}
+
+input {
+    width: 80%;
+    margin: auto;
+}
+
+textarea {
+    width: 80%;
+    margin: auto;
+}
+
+#boton {
+    width: 40%;
+    margin-top: 10%;
+}
+
+iframe {
+    margin: 2%;
 }
 
 form legend {
@@ -246,13 +305,9 @@ form label {
     font-weight: bold;
 }
 
-#info {
-    display: inline-block;
-    width: 500px;
-}
-
 #info ul {
     list-style-type: none;
+    padding-inline-start: 0%;
 }
 
 /** FOOTER **/
@@ -398,6 +453,62 @@ footer {
         max-height:150px;
     }
 
+    #contacto {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    
+    #info {
+        width: 96%;
+        display: flex;
+        align-items: center;
+    }
+
+    #info h2 {
+        margin-top: 5%;
+    }
+    
+    #info div {
+        margin-top: 5%;
+    }
+
+    #info ul {
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+
+    #formulario {
+        width: 90%;
+        margin-left: 6%;
+        align-items: center;
+    }
+
+    #formulario form {
+        width: 100%;
+        margin: auto;
+    }
+
+    legend {
+        margin-top: 5%;
+    }
+
+    label {
+        margin-top: 5%;
+    }
+
+    input {
+        width: 95%;
+    }
+    
+    textarea {
+        width: 95%;
+    }
+
+    #boton {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
     #copy {
         font-size: 0.6rem;
         margin-top: 1%;
@@ -423,6 +534,10 @@ footer {
         font-size: 0.9rem;
         margin-left: 2%;
         margin-right: 2%;
+    }
+
+    h2 {
+        font-size: 1rem;
     }
 
     .img-container {
@@ -463,6 +578,10 @@ footer {
 
     .serv-info p {
         margin-top: 0;
+    }
+
+    #mapa {
+        width: 250px;
     }
 
     #copy {
