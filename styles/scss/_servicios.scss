@@ -1,0 +1,75 @@
+/** SERVICIOS **/
+
+#servicios {
+    width: 90%;
+    margin: 0% 5% 3% 5%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    border-width: 3px;
+    
+}
+
+.sector-a {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 20% 80%;
+    grid-template-areas: 
+    "titulo info"
+    "foto info";
+    @include boxes (2px, solid, $color-ppal, 5px, 0px 3px 5px $color-sombra);
+
+        h2 {
+            grid-area: titulo;
+            text-align: center;
+            margin: auto;
+        }
+}
+
+.serv-info {
+    grid-area: info;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $color-ppal;
+
+        ol {
+            list-style-type: circle;
+        }
+}
+
+.sm-img-container {
+    width: 30%;
+    max-width: 500px;
+    min-width: 300px;
+    margin: auto;
+    grid-area: foto;
+}
+
+.serv-img {
+    width: 100%;
+    box-shadow: 0px 3px 5px $color-sombra;
+    border-radius: 5px;
+}
+
+.sector-b {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 20% 80%;
+    grid-template-areas: 
+    "info titulo"
+    "info foto";
+    @include boxes (2px, solid, $color-ppal, 5px, 0px 3px 5px $color-sombra);
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+        h2 {
+            grid-area: titulo;
+            text-align: center;
+            margin: auto;
+        }
+}

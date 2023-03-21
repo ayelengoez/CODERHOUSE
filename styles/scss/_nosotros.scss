@@ -1,0 +1,87 @@
+/** NOSOTROS **/
+
+#nosotros {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;        
+}
+
+.team-container {
+    @include boxes (2px, solid, $color-ppal, 5px, 0px 3px 5px $color-sombra);
+    width: 100%;
+    margin-bottom: 5%;        
+}    
+
+.team-card1 {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 15% 85%;
+    grid-template-areas: 
+    "titulo info"
+    "foto info";
+
+        h2 {
+            grid-area: titulo;
+            text-align: center;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            margin: 0;
+        }
+}
+
+.team-info {
+    grid-area: info;
+    height: 100%;
+    padding-top: 3%;
+    background-color: $color-ppal;
+
+        p {
+            margin: 4%;
+        }
+
+        ul{
+            list-style-type: none;
+            margin-left: 5%;
+        }
+}
+
+.team-img {
+    grid-area: foto;
+    width: 90%;
+    margin: 5% auto;
+    padding: 2%;
+
+        img {
+            width: 100%;
+            box-shadow: 0px 3px 5px $color-sombra;
+            border-radius: 5px;
+        }
+
+}
+
+.team-card2 {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 15% 85%;
+    grid-template-areas: 
+    "info titulo"
+    "info foto";
+    
+        h2 {
+            grid-area: titulo;
+            text-align: center;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            margin: 0;
+        }
+
+        .team-info {
+            grid-area: info;
+        }
+
+        .team-img {
+            grid-area: foto;
+        }
+}

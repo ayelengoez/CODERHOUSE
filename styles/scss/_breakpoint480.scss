@@ -1,0 +1,107 @@
+/** MOBILE **/
+
+@media screen and (max-width:480px) {
+    
+    /* general */
+
+    h1 {
+        font-size: 1.1rem;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+    
+    /* inicio */
+
+    .img-container {
+        max-width: 280px;
+        min-width: 150px;
+        margin-top: 5%;
+        margin-bottom: 0;
+    }    
+
+    #intro {
+        font-size: 0.8rem;
+        margin: 5% auto 0 auto;
+    }
+
+    /* servicios */
+
+    .sector-a {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2%;
+        margin-bottom: 3%;
+    }
+
+    .sector-b {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sm-img-container {
+        max-width: 260px;
+        min-width: 180px;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    .serv-info {
+        font-size: 0.8rem;
+        padding-top: 5%;
+
+            p {
+                margin-top: 0;
+            }
+    }
+
+    /* proyectos */
+
+    .project-info {
+        font-size: 0.8rem;
+    }
+
+    /* nosotros */
+
+    .team-card1 {
+            h2 {
+                font-size: 1rem;
+            }
+
+            .team-info {
+                font-size: 0.8rem;
+            }
+    }
+
+    .team-card2 {
+            h2 {
+                font-size: 1rem;
+            }
+
+            .team-info {
+                font-size: 0.8rem;
+            }
+    }
+
+    /* contacto */
+
+    #mapa {
+        width: 250px;
+    }
+
+    /* footer */
+
+    #copy {
+        font-size: 0.6rem;
+    }
+    
+    #links {
+        li {
+            margin-top: 8%;
+        }
+    }    
+
+}
