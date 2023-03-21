@@ -7,7 +7,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;1,300&display=swap" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../styles/css/style.css">
         <link rel="shortcut icon" href="../images/favicon.ico">
         <title>CONTACTO - Estudio García Morales</title>
     </head>
@@ -47,9 +47,10 @@
             </nav>
         </header>
 
+        <h1>Dónde encontrarnos</h1>
         <main id="contacto">
             <div id="info">
-                <h2>Dónde encontrarnos</h2>
+                <h2>Ubicación</h2>
                 <div id="mapa">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10353.035213649759!2d-58.154104349078416!3d-34.80328532775832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3278932239ca3%3A0xed9063c343d970ce!2sDowntown%20Greenville%20Hudson!5e0!3m2!1ses!2sar!4v1675103619398!5m2!1ses!2sar" width="250" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
@@ -68,20 +69,26 @@
             <div id="formulario">
                 <form>
                     <fieldset>
-                        <legend>Contacto</legend>
-                        <label for="name">Nombre</label>
-                        <br>
-                        <input id="name" type="text">
-                        <br>
-                        <label for="email">E-mail</label>
-                        <br>
-                        <input id="email" type="email">
-                        <br>
-                        <label for="comentario">Ingrese su consulta</label>
-                        <br>
-                        <textarea name="comentario" id="comentario"></textarea>
-                        <br>
-                        <input id="boton" type="submit" value="Enviar">
+                        <div>
+                            <legend>
+                                <h2>Contacto</h2>
+                            </legend>
+                        </div>
+                        <div>
+                            <label for="name">Nombre</label>
+                            <input id="name" type="text">
+                        </div>  
+                        <div>  
+                            <label for="email">E-mail</label>
+                            <input id="email" type="email">
+                        </div>
+                        <div>
+                            <label for="comentario">Ingrese su consulta</label>
+                            <textarea name="comentario" id="comentario"></textarea>
+                        </div>
+                        <div>
+                            <input id="boton" type="submit" value="Enviar">
+                        </div>    
                     </fieldset>
                 </form>
             </div>    
