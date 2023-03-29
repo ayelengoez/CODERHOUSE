@@ -17,6 +17,7 @@ El proyecto consiste en un sitio web institucional de 5 páginas para un estudio
 ### Wireframes
 
 El diseño original de los wireframes se modificó un poco en lagunas secciones para mostrar mejor el contenido, pero se mantuvo la idea incial en la mayor parte del proyecto.
+<br>
 [Wireframes en pdf](https://drive.google.com/file/d/1m_QJLecsoelOr8yDg4wdX-nPxdG9Tltk/view?usp=sharing)
 
 ### Deploy
